@@ -1,0 +1,248 @@
+{
+    "com.badlogic.gdx.graphics.Color":{
+        "white":{
+            "r":1,
+            "g":1,
+            "b":1,
+            "a":1
+        },
+        "black":{
+            "r":0,
+            "g":0,
+            "b":0,
+            "a":1
+        },
+        "red":{
+            "r":1,
+            "g":0,
+            "b":0,
+            "a":1
+        },
+        "green":{
+            "r":0,
+            "g":1,
+            "b":0,
+            "a":1
+        },
+        "blue":{
+            "r":0,
+            "g":0,
+            "b":1,
+            "a":1
+        }
+    },
+    "com.badlogic.gdx.graphics.g2d.BitmapFont":{
+        "white":{
+            "file":"font/plain.fnt"
+        },
+        "white64": {
+        	"file":"font/plain64.fnt"
+        },
+        "white16": {
+        	"file":"font/plain16.fnt"
+        }
+        
+    },
+    "com.badlogic.gdx.scenes.scene2d.ui.Label$LabelStyle":{
+        "default":{
+            "font":"white",
+            "fontColor":"white"
+        },
+        "large":{
+        	"font":"white64",
+        	"fontColor": "white"
+        },
+        "small":{
+        	"font":"white16",
+        	"fontColor": "white"
+        },
+        "smallBlack":{
+        	"font":"white16",
+        	"fontColor": "black"
+        },
+        "largeBlack":{
+        	"font":"white64",
+        	"fontColor": "black"
+        },
+        "defaultBlack":{
+        	"font":"white",
+        	"fontColor": "black"
+        }
+        
+    },
+    "com.badlogic.gdx.scenes.scene2d.ui.TextButton$TextButtonStyle":{
+        "default":{
+            "up":"PlainSmall",
+            "down":"PlainSmallDown",
+            "font":"white",
+            "pressedOffsetX":1,
+            "pressedOffsetY":-1
+        },
+        "blueLarge":{
+            "up":"PlainSmall",
+            "down":"PlainSmallDown",
+            "font":"white64",
+            "pressedOffsetX":1,
+            "pressedOffsetY":-1
+        },
+        "blueSmall":{
+            "up":"PlainSmall",
+            "down":"PlainSmallDown",
+            "font":"white16",
+            "pressedOffsetX":1,
+            "pressedOffsetY":-1
+        },
+        "simpleButtonLarge":{
+            "up":"smallBlueUp2",
+            "down":"smallBlueDown2",
+            "font":"white64",
+            "pressedOffsetX":1,
+            "pressedOffsetY":-1
+        },
+        "simpleButtonDefault":{
+            "up":"smallBlueUp2",
+            "down":"smallBlueDown2",
+            "font":"white",
+            "pressedOffsetX":1,
+            "pressedOffsetY":-1
+        },
+        "simpleButtonSmall":{
+            "up":"smallBlueUp2",
+            "down":"smallBlueDown2",
+            "font":"white16",
+            "pressedOffsetX":1,
+            "pressedOffsetY":-1
+        }
+        
+        
+    },
+    "com.badlogic.gdx.scenes.scene2d.ui.List$ListStyle":{
+        "default":{
+            "font":"white16",
+            "fontColorUnselected":"black",
+            "fontColorSelected":"white",
+            "selection":"selectionAqua"
+        },
+        "largeList":{
+            "font":"white64",
+            "fontColorUnselected":"white",
+            "fontColorSelected":"black",
+            "selection":"selectionAqua"
+        },
+        "smallList":{
+            "font":"white16",
+            "fontColorUnselected":"white",
+            "fontColorSelected":"black",
+            "selection":"selectionAqua"
+        },
+        "medList":{
+            "font":"white",
+            "fontColorUnselected":"white",
+            "fontColorSelected":"black",
+            "selection":"selectionAqua"
+        },
+        "PlayerList":{
+            "font":"white",
+            "fontColorUnselected":"white",
+            "fontColorSelected":"black",
+            "selection":"selectionAqua"
+        }
+    },
+    "com.badlogic.gdx.scenes.scene2d.ui.ScrollPane$ScrollPaneStyle":{
+        "default":{
+            "hScrollKnob":"scroll1",
+            "vScrollKnob":"scroll1",
+            "background":"littleBlueSquare"
+        },
+        "darkPane":{
+            "hScrollKnob":"scroll1",
+            "vScrollKnob":"scroll1",
+            "background":"blackCursor"
+        },
+        "darkerPane":{
+            "hScrollKnob":"scroll1",
+            "vScrollKnob":"scroll1",
+            "background":"PlainSmall"
+        }
+    },
+    "com.badlogic.gdx.scenes.scene2d.ui.Window$WindowStyle": {
+    	"default": { 
+    		"titleFont": "white64",
+    		"titleFontColor": "black",
+    		"background": "littleBlueSquare"
+    		
+    	},
+     	"testBackground1": { 
+    		"titleFont": "white64",
+    		"titleFontColor": "black",
+    		"background": "textWindowSkin1"
+    		
+    	},
+    	"testBackground2": { 
+    		"titleFont": "white64",
+    		"titleFontColor": "black",
+    		"background": "textWindowSkin2"
+    		
+    	},
+    	"testBackground3": { 
+    		"titleFont": "white64",
+    		"titleFontColor": "black",
+    		"background": "testWindowSkin3"
+    		
+    	}
+    },
+    "com.badlogic.gdx.scenes.scene2d.ui.TextField$TextFieldStyle": {
+    	"default": { 
+    		"font": "white16",
+    		"fontColor": "black",
+    		"background": "textFieldBox",
+    		"cursor": "blackCursor"	
+    	},
+    	"medium": { 
+    		"font": "white",
+    		"fontColor": "black",
+    		"background": "textFieldBox",
+    		"cursor": "blackCursor"	
+    	},
+    	"large": { 
+    		"font": "white",
+    		"fontColor": "black",
+    		"background": "textFieldBox",
+    		"cursor": "blackCursor"	
+    	}
+    },
+    "com.badlogic.gdx.scenes.scene2d.ui.SelectBox$SelectBoxStyle": {
+    	"default": { 
+    		"font": "white16",
+    		"fontColor": "black",
+    		"background": "textFieldBox",
+    		"scrollStyle": "default",
+    		"listStyle": "smallList"	
+    		
+    	},
+    	"medium": { 
+    		"font": "white",
+    		"fontColor": "black",
+    		"background": "textFieldBox",
+    		"scrollStyle": "default",
+    		"listStyle": "medList"	
+    		
+    	},
+    	"large": { 
+    		"font": "white64",
+    		"fontColor": "black",
+    		"background": "textFieldBox",
+    		"scrollStyle": "default",
+    		"listStyle": "smallList"	
+    		
+    	}
+    	
+    },
+    "com.badlogic.gdx.scenes.scene2d.ui.SplitPane$SplitPaneStyle":{
+    	"default-horizontal":{
+    		"handle":"textFieldBox"
+    	}
+    }
+    
+    
+}
